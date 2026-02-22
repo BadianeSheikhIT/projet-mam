@@ -1,0 +1,35 @@
+input{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.inscription{
+    background-color: green;
+    color: white;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row input {
+  flex: 1;
+}
+
+.form-boxI{
+    height: 500px;
+    width: 620px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.checkbox-row-horizontal {
+  display: flex;
+  gap: 20px;
+}
+
+.checked{
+  display: flex;
+  margin-left: 200px;
+}

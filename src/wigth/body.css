@@ -1,0 +1,52 @@
+/* 
+
+.accueil{
+  color:green;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(9, 190, 12, 0.5);
+} */
+
+/* Conteneur principal */
+.contenu {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Section Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Titre principal */
+.accueil {
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+  text-shadow: 2px 2px 4px rgba(9, 190, 12, 0.5);
+}
+
+/* Section suivante */
+.section-accueil1 {
+  padding: 40px 20px;
+}
+
+/* Responsive Tablet */
+@media (max-width: 992px) {
+  .accueil {
+    font-size: 32px;
+  }
+}
+
+/* Responsive Mobile */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .accueil {
+    font-size: 24px;
+  }
+}
