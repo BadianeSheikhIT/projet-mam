@@ -1,14 +1,15 @@
 import Header from '../wigth/header.jsx'
+//import Acceuil1 from '../wigth/accueil/accueil1.jsx';
+import Service1 from '../wigth/services/services.jsx';
+import Footer from '../wigth/footer.jsx';
 
 function Services() {
   return (
-    <><Header />
-    <div>
-          <h1>Page services</h1>
-    </div></>
-    
-    
+    <>
+    <Header />
+    <Service1 />
+    <Footer/>
+    </>
   );
 }
-
 export default Services;

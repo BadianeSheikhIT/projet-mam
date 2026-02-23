@@ -1,0 +1,142 @@
+
+.accueil-section {
+  padding: 10px 5px;
+}
+
+.titleService{
+  color: green;
+}
+
+.acc4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.acc5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+
+/* Bloc cartes */
+.acc2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.acc1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    
+}
+
+.acc3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    
+}
+
+/* Carte */
+.card {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #0d1b2a;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #555;
+  line-height: 1.6;
+}
+.OpenClose
+{
+  display: flex;
+  gap: 10px;
+}
+.open{
+  margin-left: 30px;
+  font-size: 12px;
+  color: green;
+  font-weight: bold;
+}
+.close{
+  color: red;
+   margin-left: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* Tablet */
+@media (max-width: 992px) {
+  .acc2 {
+    justify-content: center;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .acc1 {
+    justify-content: center;
+  }
+}
+/* Tablet */
+@media (max-width: 992px) {
+  .acc3 {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .acc2 {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .acc1 {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .acc3 {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}

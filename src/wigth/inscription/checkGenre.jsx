@@ -2,20 +2,27 @@ import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
+//import FormLabel from '@mui/material/FormLabel';
 
 export default function RadioButtonsGroup() {
   return (
-    <FormControl>
-      <FormLabel id="demo-radio-buttons-group-label">Genre</FormLabel>
-      <RadioGroup
-        aria-labelledby="demo-radio-buttons-group-label"
-        defaultValue="female"
-        name="radio-buttons-group"
-      >
-        <FormControlLabel value="female" control={<Radio />} label="Femme" />
-        <FormControlLabel value="male" control={<Radio />} label="Homme" />
-      </RadioGroup>
-    </FormControl>
+    <FormControl component="fieldset">
+            <RadioGroup defaultValue="feminin" name="account-type-group">
+                <FormControlLabel 
+                    value="feminin" 
+                    control={<Radio />} 
+                    label="Feminin" className='genre'
+                    labelPlacement="end" // Positionne le label à droite du bouton radio
+                    style={{ marginRight: 0 }} // Supprime l'espacement à droite
+                />
+                <FormControlLabel 
+                    value="masuclin" 
+                    control={<Radio />} 
+                    label="Masculin"  className='genre'
+                    labelPlacement="end" // Positionne le label à droite du bouton radio
+                    style={{ marginRight: 0 }} // Supprime l'espacement à droite
+                />
+            </RadioGroup>
+        </FormControl>
   );
 }

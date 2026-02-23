@@ -12,7 +12,9 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
 }
-
+.mess{
+  color: black;
+}
 .form-box {
   background: white;
   padding: 25px;
@@ -34,7 +36,6 @@
 }
 
 .inscriptionLink{
-    margin-left: 15px;
     color: blue;
 }
 .fermer{

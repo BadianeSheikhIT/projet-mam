@@ -12,7 +12,7 @@ function Acceuil1() {
         </div>
       </div>
 
-      {/* Bloc des services */}
+      {/* Bloc du choix mam */}
       <div className="acc2">
 
         <div className="card">

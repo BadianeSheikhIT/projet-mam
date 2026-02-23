@@ -19,7 +19,7 @@ const [showModal, setShowModalInscription] = useState(false);
             Se connecter
             
         </button>
-        <p>Cliquer ici pour   
+        <p className="mess">Cliquer ici pour creer un compte :
             <a
                 href="#"
                 className="inscriptionLink"
