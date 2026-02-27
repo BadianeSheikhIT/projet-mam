@@ -1,11 +1,13 @@
-import Header from '../wigth/header.jsx'
-
+import Header from '../wigth/header.jsx';
+import Footer from '../wigth/footer.jsx';
+import Blog1 from '../wigth/blog/blog.jsx';
 function Blog() {
   return (
-    <><Header />
-    <div>
-          <h1>Page Blog</h1>
-    </div></>
+    <>
+    <Header />
+    <Blog1 />
+    <Footer/>
+    </>
     
     
   );

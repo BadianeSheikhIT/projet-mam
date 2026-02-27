@@ -1,0 +1,286 @@
+/* /* .acc1{
+    display: flex;
+    gap: 20px;
+}
+.acc2{
+    display: flex;
+    gap: 30px;
+}
+.acc3{
+    height: 453px;
+    width: 1200px;
+    background-color: green;
+    border-radius: 10px;
+}
+.acc4{
+    margin-top: 10px;
+    height: 280px;
+    width: 380px;
+    background-color: rgb(236, 4, 4);
+    border-radius: 10px;
+}
+.acc5{
+    margin-top: 10px;
+    height: 280px;
+    width: 380px;
+    background-color: rgb(236, 4, 4);
+    border-radius: 10px;
+}
+.acc6{
+    margin-top: 10px;
+    height: 280px;
+    width: 380px;
+    background-color: rgb(236, 4, 4);
+    border-radius: 10px;
+}
+.img1{
+    padding-top: 10px;
+    width: 1180px;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.desc{
+    background-color: white;
+    height: 160px;
+    width: 350px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+} */
+
+
+
+.accueil-section {
+  padding: 10px 5px;
+}
+
+/* Image */
+.acc1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+.img1 {
+
+  width: auto;
+  max-width: 900px;
+  height: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+/* Bloc cartes */
+.acc2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Carte */
+.card {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #0d1b2a;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .acc2 {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .acc2 {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+.headerBlog {
+  display: flex;
+  gap: 30px;
+}
+.textBlog1{
+    height: 200px;
+    width: 530px;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 180px;
+}
+.blog-title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.blog-desc{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.vplus{
+    color: red;
+}
+.vplus:hover{
+    color: white;
+    font-size: 20px;
+}
+.tmge{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(91, 214, 110, 0.5);
+}
+.tname{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+} */
+
+.accueil-section {
+  padding: 10px 5px;
+}
+
+/* Image */
+.headerBlog {
+  display: flex;
+  flex-direction: column; /* Ajout de flex-direction pour mieux s'adapter en responsive */
+  align-items: center; /* Centrer horizontalement */
+  margin-bottom: 40px;
+}
+
+.img1 {
+  width: auto;
+  max-width: 900px;
+  height: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+/* Texte du blog */
+.textBlog1 {
+  background-color: green;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.blog-title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.blog-desc {
+  color: white;
+  font-size: 18px;
+}
+
+.vplus {
+  color: red;
+}
+
+.vplus:hover {
+  color: white;
+  font-size: 20px;
+}
+
+/* Bloc cartes */
+.acc2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap; /* Permet de forcer l'enveloppement des éléments */
+}
+
+/* Carte */
+.card {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #0d1b2a;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Section témoignages */
+.tmge {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(91, 214, 110, 0.5);
+}
+
+/* Avatars */
+.tname {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .headerBlog {
+    flex-direction: column; /* Empile les éléments sur les petits écrans */
+  }
+  
+  .acc2 {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .acc2 {
+    flex-direction: column; /* Colonne sur mobile */
+  }
+
+  .card {
+    width: 100%; /* Les cartes prennent toute la largeur */
+  }
+}
